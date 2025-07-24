@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="preload"
+      href="https://demo-styles.deno.deno.net/fonts/Moranga-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="https://demo-styles.deno.deno.net/fonts/Moranga-Medium.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="https://demo-styles.deno.deno.net/fonts/Recursive_Variable.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="https://demo-styles.deno.deno.net/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Dino Runner</title>
+  </head>
+
+  <body>
+    <main>
+      <h1>🦕 Dino Runner</h1>
+
+      <section class="container intro">
+        <h2>Step 1: Setting up an HTTP Server</h2>
+        <p>
+          This is the first step in our Dino Runner game development journey.
+          We'll set up a basic HTTP server using Deno and the Oak framework.
+        </p>
+        <p>Start by deploying this repository:</p>
+        <a
+          href="https://app.deno.com/new?clone=https://github.com/thisisjofrank/game-tutorial.git"
+          class="deploy-button"
+        ><img src="https://deno.com/button" alt="Deploy on Deno" /></a>
+        <p>Then Clone your newly created repo locally to edit the code</p>
+      </section>
+
+      <section class="container status">
+        <h3>Server Status</h3>
+        <p>
+          Check that everything is working: <a
+            href="/api/health"
+            target="_blank"
+          >Health Check Endpoint</a>
+        </p>
+        <p>
+          <small>Should return:
+            <code>{"status": "ok", "message": "🦕 Stage 1 - Dino server is
+              healthy!"}</code></small>
+        </p>
+      </section>
+
+      <section class="container">
+        <h3>Stage 2 Features</h3>
+        <div class="feature-grid">
+          <div class="feature-item">
+            <p class="icon">🦕</p>
+            <strong>Deno runtime</strong>
+            <p>
+              Modern JavaScript/TypeScript runtime
+            </p>
+          </div>
+          <div class="feature-item">
+            <p class="icon">🌳</p>
+            <strong>Oak middleware</strong>
+            <p>
+              Middleware framework for Deno's HTTP server
+            </p>
+          </div>
+          <div class="feature-item">
+            <p class="icon">🗄️</p>
+            <strong>Static File Serving</strong>
+            <p>
+              Serving HTML, CSS, and JS files
+            </p>
+          </div>
+          <div class="feature-item">
+            <p class="icon">⚙️</p>
+            <strong>API Routing</strong>
+            <p>
+              Basic REST endpoint structure
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container">
+        <h3>Ready for Stage 2?</h3>
+        <p>Stage 1 establishes our server foundation. In Stage 2, we'll add:</p>
+        <ul style="text-align: left; max-width: 400px; margin: 0 auto">
+          <li>HTML5 Canvas setup</li>
+          <li>Basic game loop structure</li>
+          <li>Animation timing</li>
+          <li>Input handling foundation</li>
+        </ul>
+        <br>
+        <a
+          href="https://github.com/thisisjofrank/game-tutorial-stage-2"
+          class="demo-link"
+        >Go to stage 2</a>
+      </section>
+    </main>
+
+    <script src="js/game.js" type="module"></script>
+  </body>
+</html>
