@@ -363,7 +363,7 @@ visuals based on the current game state.
 
 ## Understanding the game architecture
 
-### The Game Loop
+### The game loop
 
 The heart of any game is its **game loop** - a cycle that runs continuously
 while the game is active it will:
@@ -374,7 +374,7 @@ while the game is active it will:
 
 This creates smooth 60fps animation that responds to player input in real-time.
 
-### Physics System
+### Physics system
 
 Our physics system simulates realistic movement:
 
@@ -383,7 +383,7 @@ Our physics system simulates realistic movement:
 - **Collision**: Detects when the dino hits the ground and stops falling
 - **Velocity**: Tracks speed in the Y direction for smooth motion
 
-### Input Handling
+### Input handling
 
 We support multiple input methods:
 
@@ -391,7 +391,7 @@ We support multiple input methods:
 - **Mouse/Touch**: Click or tap for mobile and casual players
 - **State-Aware**: Different behaviors based on current game state
 
-### Canvas Rendering
+### Canvas rendering
 
 The HTML5 Canvas API lets us draw programmatically:
 
