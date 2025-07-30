@@ -27,7 +27,8 @@ By the end of Stage 2, you'll have:
 
 ### Setup
 
-1. Copy your Stage 1 project or clone this starter repository
+1. Copy your Stage 1 project or deploy this starter kit:
+   [![Deploy on Deno](https://deno.com/button)](https://app.deno.com/new?clone=https://github.com/thisisjofrank/game-tutorial-stage-2-starter.git&install=deno+install&entrypoint=src/main.ts&mode=dynamic)
 2. Ensure your `.env` file is configured
 3. Install dependencies: `deno install`
 
