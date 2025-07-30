@@ -43,10 +43,12 @@ The canvas will be our game's "screen" where we draw the dino character, ground,
 and everything else. Think of it like a digital painting canvas that we can
 programmatically draw on.
 
-Add a `<canvas>` element into your HTML page, below the intro section.
-
 We'll also add a section to show players which controls they can use to play the
 game.
+
+Add a `<canvas>` element into your HTML page with the following markup. (You can
+delete the first `<section>` element from Stage 1 and replace it with these new
+elements):
 
 <details>
 <summary>📁 public/index.html (click to expand)</summary>
@@ -420,6 +422,12 @@ The HTML5 Canvas API lets us draw programmatically:
 
 4. **Check the console**: Open browser DevTools to see helpful debug messages
 
+## Deploying your game
+
+Commit your changes and push them to your GitHub repository and Deno Deploy will
+automatically deploy your project. At this point you'll have a movable character
+that can jump based on user input, and a score that increases over time.
+
 ## Make it your own
 
 You can of course edit the game physics if you want, to make the dino jump
@@ -440,8 +448,8 @@ After completing Stage 2, you should understand:
 
 ## Ready for Stage 3?
 
-Excellent work! You now have a fully playable dino character with realistic
-physics. In Stage 3, you'll add:
+Excellent work! You now have a jumping dino character with realistic physics. In
+Stage 3, you'll add:
 
 - Moving obstacles (cacti) that the dino must avoid
 - Collision detection between dino and obstacles
