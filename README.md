@@ -455,7 +455,6 @@ Stage 3, you'll add:
 - Collision detection between dino and obstacles
 - Game over mechanics when collisions occur
 - Restart functionality to play again
-- Enhanced visual effects and animations
 
 **Continue to:**
 [Stage 3 Starter](https://github.com/thisisjofrank/game-tutorial-stage-3-starter)
